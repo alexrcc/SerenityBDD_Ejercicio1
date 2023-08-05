@@ -1,0 +1,10 @@
+- Se ejecuta correctamente el escenario de prueba permitiendo a un cliente realizar la compra de dos productos
+en el sitio https://demoblaze.com/; ejecutado mediante serenity bdd, cucumber, gradle.
+
+- El framework serenity bdd ayuda a escribir pruebas automatizadas de forma sencilla y mantenible; adicionalmente
+posee funcionalidades sencillas de implementar como la generación de reportes que son legibles para cualquier usuario
+funcional.
+
+- Serenity bdd permite utilizar tanto el patron screenplay como el POM, de acuerdo a lo que el QA desee implementar,
+pero actualmente lo más recomendable es utilizar el screenplay debido a su ventaja sobre POM en cuanto a la disminución
+de código duplicado, wait perdidos entre otros.
