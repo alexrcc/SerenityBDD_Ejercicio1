@@ -36,10 +36,12 @@ public class BuyStepDefinition {
     }
 
     @And("visualiza el detalle y lo agrega al carro de compras")
-    public void visualizaElDetalleYLoAgregaAlCarroDeCompras() {
+    public void visualizaElDetalleYLoAgregaAlCarroDeCompras() throws InterruptedException{
         withCurrentActor(
                 BuyCar.addToCar()
         );
+        Thread.sleep(1000);
+        getDriver().switchTo().alert().accept();
     }
 
     @And("{string} regresa a la pagina principal")
