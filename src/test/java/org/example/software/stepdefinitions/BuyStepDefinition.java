@@ -13,7 +13,7 @@ import org.example.software.screenplay.tasks.BuyCar;
 import org.example.software.screenplay.tasks.FormBuy;
 import org.example.software.screenplay.tasks.ProcessBuy;
 
-
+import static net.serenitybdd.core.Serenity.getDriver;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
 import static net.serenitybdd.screenplay.actors.OnStage.withCurrentActor;
 
